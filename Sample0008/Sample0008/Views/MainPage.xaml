@@ -12,7 +12,11 @@
         <Button Text="推定RM" VerticalOptions="Start" WidthRequest="100" HeightRequest="60"/>
     </StackLayout>
 
-    
+    <StackLayout Orientation="Horizontal">
+        <Button Text="TOP" VerticalOptions="End"/>
+        <Button Text="記録" VerticalOptions="End"/>
+        <Button Text="ストップウォッチ・タイマー" VerticalOptions="End" />
+    </StackLayout>
 
 
 
