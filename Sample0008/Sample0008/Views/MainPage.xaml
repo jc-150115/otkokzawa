@@ -6,9 +6,16 @@
              x:Class="Sample0008.Views.MainPage"
              Title="TOP">
 
-    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-        <BoxView Color="Red" VerticalOptions="FillAndExpand" />
-        <BoxView Color="Blue" VerticalOptions="FillAndExpand"/>
+    <StackLayout Orientation="Vertical">
+        <button Text="ボディー統計" VerticalOptions="StartAndExpand">
+        <button Text="トレーニング履歴" VerticalOptions="StartAndExpand">
+        <button Text="推定RM" VerticalOptions="StartAndExpand">
+    </StackLayout>
+
+    <StackLayout Orientation="Horizontal">
+        <button Text="TOP" VerticalOptions="FillAndExpand">
+        <button Text="記録" VerticalOptions="FillAndExpand">
+        <button Text="ストップウォッチ・タイマー" VerticalOptions="FillAndExpand">
     </StackLayout>
 
 </ContentPage>
