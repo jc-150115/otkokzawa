@@ -7,15 +7,15 @@
              Title="TOP">
 
     <StackLayout Orientation="Vertical">
-        <button Text="ボディー統計" VerticalOptions="StartAndExpand" />
-        <button Text="トレーニング履歴" VerticalOptions="StartAndExpand" />
-        <button Text="推定RM" VerticalOptions="StartAndExpand" />
+        <button Text="ボディー統計" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand" />
+        <button Text="トレーニング履歴" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"/>
+        <button Text="推定RM" VerticalOptions="StartAndExpand" HorizontalOptions="StartAndExpand"/>
     </StackLayout>
 
     <StackLayout Orientation="Horizontal">
-        <button Text="TOP" VerticalOptions="FillAndExpand" />
-        <button Text="記録" VerticalOptions="FillAndExpand" />
-        <button Text="ストップウォッチ・タイマー" VerticalOptions="FillAndExpand" />
+        <button Text="TOP" VerticalOptions="FillAndExpand" HorizontalOptions="StartAndExpand"/>
+        <button Text="記録" VerticalOptions="FillAndExpand" HorizontalOptions="StartAndExpand"/>
+        <button Text="ストップウォッチ・タイマー" VerticalOptions="FillAndExpand" HorizontalOptions="StartAndExpand"/>
     </StackLayout>
 
 
