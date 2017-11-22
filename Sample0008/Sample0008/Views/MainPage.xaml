@@ -12,10 +12,6 @@
         <button Text="推定RM" VerticalOptions="StartAndExpand">
     </StackLayout>
 
-    <StackLayout Orientation="Horizontal">
-        <button Text="TOP" VerticalOptions="FillAndExpand">
-        <button Text="記録" VerticalOptions="FillAndExpand">
-        <button Text="ストップウォッチ・タイマー" VerticalOptions="FillAndExpand">
-    </StackLayout>
+  
 
 </ContentPage>
