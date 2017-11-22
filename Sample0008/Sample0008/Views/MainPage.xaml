@@ -5,19 +5,63 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="Sample0008.Views.MainPage"
              Title="TOP">
+    <StackLayout>
+        <!-- つぶやき１ -->
+        <StackLayout Orientation="Horizontal"
+                 VerticalOptions="Start">
+            <BoxView Color="Red" />
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical"
+                       HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="@okazuki" />
+                            <Label Text="かずき@MBPぽちった"
+                     HorizontalOptions="FillAndExpand" />
+                        </StackLayout>
+                        <Label Text="XXXXXXXXXXXXXXXXXXXX" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="EndAndExpand">
+                    <Button Text="Like" 
+                  HorizontalOptions="End" />
+                    <Button Text="RT" 
+                  HorizontalOptions="End" />
+                    <Button Text="Quote" 
+                  HorizontalOptions="End" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
 
-    <StackLayout Orientation="Vertical">
-        <Button Text="ボディー統計" VerticalOptions="Start" WidthRequest="100" HeightRequest="60" />
-        <Button Text="トレーニング履歴" VerticalOptions="Start" WidthRequest="100" HeightRequest="60"/>
-        <Button Text="推定RM" VerticalOptions="Start" WidthRequest="100" HeightRequest="60"/>
+        <!-- つぶやき2 -->
+        <StackLayout Orientation="Horizontal"
+                 VerticalOptions="Start">
+            <BoxView Color="Red" />
+            <StackLayout HorizontalOptions="FillAndExpand">
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical"
+                       HorizontalOptions="FillAndExpand">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="@okazuki" />
+                            <Label Text="かずき@MBPぽちった"
+                     HorizontalOptions="FillAndExpand" />
+                        </StackLayout>
+                        <Label Text="YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY" />
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                     HorizontalOptions="EndAndExpand">
+                    <Button Text="Like" 
+                  HorizontalOptions="End" />
+                    <Button Text="RT" 
+                  HorizontalOptions="End" />
+                    <Button Text="Quote" 
+                  HorizontalOptions="End" />
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
     </StackLayout>
-
-    <StackLayout Orientation="Horizontal">
-        <Button Text="TOP" VerticalOptions="End"/>
-        <Button Text="記録" VerticalOptions="End"/>
-        <Button Text="ストップウォッチ・タイマー" VerticalOptions="End" />
-    </StackLayout>
-
-
-
 </ContentPage>
+
+
