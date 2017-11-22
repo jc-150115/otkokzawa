@@ -7,9 +7,9 @@
              Title="TOP">
 
     <StackLayout Orientation="Vertical">
-        <Button Text="ボディー統計" VerticalOptions="StartAndExpand" />
-        <Button Text="トレーニング履歴" VerticalOptions="StartAndExpand" />
-        <Button Text="推定RM" VerticalOptions="StartAndExpand"/>
+        <Button Text="ボディー統計" VerticalOptions="StartAndExpand" WidthRequest="100" HeightRequest="60" />
+        <Button Text="トレーニング履歴" VerticalOptions="StartAndExpand" WidthRequest="100" HeightRequest="60"/>
+        <Button Text="推定RM" VerticalOptions="StartAndExpand" WidthRequest="100" HeightRequest="60"/>
     </StackLayout>
 
     
