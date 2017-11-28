@@ -6,7 +6,7 @@
              x:Class="Sample0008.Views.MainPage"
              Title="TOP">
     <StackLayout>
-        <!-- つぶやき１6 -->
+        <!-- つぶやき１ -->
         <StackLayout Orientation="Horizontal"
                  VerticalOptions="Start">
             <BoxView Color="Red" />
